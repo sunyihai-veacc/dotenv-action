@@ -1,10 +1,11 @@
 name: "units-test"
 on:
-  pull_request:
-  push:
-    branches:
-      - master
-      - 'releases/*'
+  workflow_dispatch:
+#   pull_request:
+#   push:
+#     branches:
+#       - master
+#       - 'releases/*'
 
 jobs:
   # unit tests
